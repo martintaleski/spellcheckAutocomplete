@@ -9,7 +9,7 @@ jQuery and jQuery UI (autocomplete) must be loaded.
 
 ##Usage:
 
-$('.jquery-selector').spellcheckAutocomplete();
+	$('.jquery-selector').spellcheckAutocomplete();
 
 ##Available options:
 
