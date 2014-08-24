@@ -2,29 +2,25 @@
 <head>
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-
+	<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+	
 	<script src="spellcheckAutocomplete.js"></script>
 
 	<script type='text/javascript'>
 		$(document).ready(function(){
-
 			// atach the autocomplete to a textbox
 			$( "#fruits" ).spellcheckAutocomplete({
 				threshold: 0.9,
+				source: [ "Apples","Oranges","Pears"],
+
+				/*
+				// source with ids
 				source: [
-					{
-						id: 1,
-						label : "Apples",
-					},
-					{
-						id: 2,
-						label: "Oranges",
-					},
-					{
-						id: 3,
-						label: "Pears",
-					}
+					{ id: 1,label : "Apples" },
+					{ id: 2, label: "Oranges" },
+					{ id: 3, label: "Pears" }
 				],
+				*/
 
 			});
 		});

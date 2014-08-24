@@ -17,4 +17,4 @@ jQuery and jQuery UI (autocomplete) must be loaded.
 
 ## Example
 
-see examle.html file
+See the `examle.html` file

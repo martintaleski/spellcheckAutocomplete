@@ -49,7 +49,7 @@ $.fn.spellcheckAutocomplete = function(options) {
 				suggestions.push(tag);
 			}
 		});
-		console.log(suggestions);
+		//console.log(suggestions);
 		response(suggestions);
 	};
 
